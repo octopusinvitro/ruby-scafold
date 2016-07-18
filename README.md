@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/octopusinvitro/ruby-scafold.svg?branch=master)](https://travis-ci.org/octopusinvitro/ruby-scafold)
 [![build status](https://gitlab.com/me-stevens/ruby-scafold/badges/master/build.svg)](https://gitlab.com/me-stevens/ruby-scafold/commits/master)
-
+[![Coverage Status](https://coveralls.io/repos/github/octopusinvitro/ruby-scafold/badge.svg?branch=master)](https://coveralls.io/github/octopusinvitro/ruby-scafold?branch=master)
 
 # Readme
 
@@ -55,7 +55,7 @@ $ bundle exec rake
 ### To run the tests
 
 ```bash
-$ bundle exec rspec --color
+$ bundle exec rspec
 ```
 
 
@@ -78,4 +78,3 @@ $ bin/app
 
 [![License](https://img.shields.io/badge/gnu-license-green.svg?style=flat)](https://opensource.org/licenses/GPL-2.0)
 GNU License
-
