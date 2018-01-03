@@ -47,15 +47,14 @@ $ rbenv rehash
 ### To initialise the project
 
 ```bash
-$ bundle install
-$ bundle exec rake
+bundle install
 ```
 
 
-### To run the tests
+### To run all tests and rubocop
 
 ```bash
-$ bundle exec rspec
+bundle exec rake
 ```
 
 
