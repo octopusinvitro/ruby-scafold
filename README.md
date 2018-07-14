@@ -2,7 +2,7 @@
 [![build status](https://gitlab.com/octopusinvitro/ruby-scafold/badges/master/build.svg)](https://gitlab.com/octopusinvitro/ruby-scafold/commits/master)
 [![Coverage Status](https://coveralls.io/repos/github/octopusinvitro/ruby-scafold/badge.svg?branch=master)](https://coveralls.io/github/octopusinvitro/ruby-scafold?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2ec16c0232fcd70d732a/maintainability)](https://codeclimate.com/github/octopusinvitro/ruby-scafold/maintainability)
-[![Dependency Status](https://gemnasium.com/badges/github.com/octopusinvitro/ruby-scafold.svg)](https://gemnasium.com/github.com/octopusinvitro/ruby-scafold)
+[![Dependency status](https://badges.depfu.com/badges/a5f9aa0eb83998a1a81f7b1298a0b4f8/overview.svg)](https://depfu.com/github/octopusinvitro/ruby-scafold?project=Bundler)
 
 
 # Readme
