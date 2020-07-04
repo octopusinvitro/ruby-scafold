@@ -1,4 +1,5 @@
-image: ruby:2.5.1
+default:
+  image: ruby:2.5.1
 
 before_script:
   - gem install bundler --no-ri --no-rdoc

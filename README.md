@@ -1,41 +1,38 @@
 [![Build Status](https://travis-ci.org/octopusinvitro/ruby-scafold.svg?branch=master)](https://travis-ci.org/octopusinvitro/ruby-scafold)
-[![build status](https://gitlab.com/octopusinvitro/ruby-scafold/badges/master/build.svg)](https://gitlab.com/octopusinvitro/ruby-scafold/commits/master)
+[![build status](https://gitlab.com/octopusinvitro/ruby-scafold/badges/master/pipeline.svg)](https://gitlab.com/octopusinvitro/ruby-scafold/commits/master)
 [![Coverage Status](https://coveralls.io/repos/github/octopusinvitro/ruby-scafold/badge.svg?branch=master)](https://coveralls.io/github/octopusinvitro/ruby-scafold?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/2ec16c0232fcd70d732a/maintainability)](https://codeclimate.com/github/octopusinvitro/ruby-scafold/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/928faf993ccf571770dc/maintainability)](https://codeclimate.com/github/octopusinvitro/ruby-scafold/maintainability)
 [![Dependency status](https://badges.depfu.com/badges/a5f9aa0eb83998a1a81f7b1298a0b4f8/overview.svg)](https://depfu.com/github/octopusinvitro/ruby-scafold?project=Bundler)
-
 
 # Readme
 
 Explain your project here.
 
 
-## Before first push:
+## Project settings
 
 * If your project is public and hosted in GitHub, you can use travis and coveralls for free.
-* If your project is private, you can host it for free in Gitlab and use their CI. You will need to pay for test coverage though.
-* Turn your repo ON in Travis. Optionally, turn your repo on in Coveralls (coverage status), codeclimate (maintainability), and Gemnasium (dependency status).
-* Update badges with your user/repo names (badges are optional).
+* If your project is private, you can host it for free in Gitlab and use their CI.
+* Turn your repo ON in Travis. Optionally, turn your repo on in Coveralls (coverage status), codeclimate (maintainability), and depfu (dependency status).
+* Update badges with your user/repo names.
 * Update license to your preferred one.
 
 
 ## How to use this project
 
-This is a Ruby project.
-You will need to tell your favourite Ruby version manager to set your local Ruby version to the one specified in the `Gemfile`.
+This is a Ruby project. Tell your Ruby version manager to set your local Ruby version to the one specified in the `Gemfile`.
 
 For example, if you are using [rbenv](https://cbednarski.com/articles/installing-ruby/):
 
 1. Install the right Ruby version:
-```bash
-$ rbenv install < VERSION >
-$ rbenv rehash
-```
+  ```bash
+  $ rbenv install < VERSION >
+  ```
 1. Move to the root directory of this project and type:
-```bash
-$ rbenv local < VERSION >
-$ ruby -v
-```
+  ```bash
+  $ rbenv local < VERSION >
+  $ ruby -v
+  ```
 
 You will also need to install the `bundler` gem, which will allow you to install the rest of the dependencies listed in the `Gemfile` file of this project.
 
