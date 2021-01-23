@@ -70,7 +70,7 @@ DEPENDENCIES
   rubocop
 
 RUBY VERSION
-   ruby 2.5.1p57
+   ruby 3.0.0p57
 
 BUNDLED WITH
-   1.16.2
+   2.2.6

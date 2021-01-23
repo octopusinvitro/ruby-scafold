@@ -26,19 +26,19 @@ For example, if you are using [rbenv](https://cbednarski.com/articles/installing
 
 1. Install the right Ruby version:
   ```bash
-  $ rbenv install < VERSION >
+  rbenv install < VERSION >
   ```
 1. Move to the root directory of this project and type:
   ```bash
-  $ rbenv local < VERSION >
-  $ ruby -v
+  rbenv local < VERSION >
+  ruby -v
   ```
 
 You will also need to install the `bundler` gem, which will allow you to install the rest of the dependencies listed in the `Gemfile` file of this project.
 
 ```bash
-$ gem install bundler
-$ rbenv rehash
+gem install bundler
+rbenv rehash
 ```
 
 
@@ -61,13 +61,19 @@ bundle install
 Make sure that the `bin/app` file has execution permissions:
 
 ```bash
-$ chmod +x bin/app
+chmod +x bin/app
 ```
 
 Then just type:
 
 ```bash
-$ bin/app
+bin/app
+```
+
+If this doesn't work you can always do:
+
+```bash
+bundle exec ruby bin/app
 ```
 
 
@@ -81,7 +87,7 @@ bundle exec rake
 ```
 
 
-### To run one file
+### To run a specific file
 
 
 ```bash
@@ -89,10 +95,17 @@ bundle exec rspec path/to/test/file.rb
 ```
 
 
-### To run one test
+### To run a specific test
 
 ```bash
 bundle exec rspec path/to/test/file.rb:TESTLINENUMBER
+```
+
+
+### To run rubocop
+
+```bash
+bundle exec rubocop
 ```
 
 
